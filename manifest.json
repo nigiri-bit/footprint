@@ -1,0 +1,15 @@
+{
+  "name": "Footprint",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Click to start footprint",
+	"default_icon": {
+		"128": "icon128.png"
+	}
+  },
+  "permissions": ["activeTab", "scripting", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
